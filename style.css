@@ -1,0 +1,53 @@
+body {
+  background-color: azure;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  color: rgb(4, 24, 24);
+  font-size: 45px;
+}
+
+#session {
+  margin: 30px;
+  color: rgb(7, 186, 186);
+  font-size: 30px;
+}
+
+.timer {
+  color: black;
+  text-align: center;
+  width: 30rem;
+  height: 30rem;
+  border: 5px solid rgb(7, 186, 186);
+  border-radius: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeText {
+  font-size: 45px;
+}
+
+.btnTimer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin: 25px 10px;
+  font-size: 20px;
+  border-radius: 10rem;
+}
+
+.fa-play:hover,
+.fa-pause:hover, 
+.fa-repeat:hover,
+.fa-fast-forward:hover {
+  color: rgb(13, 126, 255);
+  transition: 0.3s ease;
+}
